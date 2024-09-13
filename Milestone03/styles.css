@@ -1,0 +1,131 @@
+/* Basic reset to remove default margins and paddings */
+body, h1, h2, h3, p, input, textarea {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+
+
+/* Body styling */
+body {
+background-color: #333;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Header styling */
+header {
+    background-color: gray;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Section styling */
+#wholeSection {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 5px;
+    color: gray;
+}
+
+label {
+    color: gray;
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: rgb(78, 2, 2);
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #2f2f2f;
+}
+
+/* Resume preview styling */
+#resumePreview {
+    background:gray ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+    margin-top: 20px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#resumePreview h2 {
+    border-bottom: 2px solid gray;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#resumePreview h3 {
+    margin-top: 20px;
+    color: rgb(78, 2, 2);
+}
+
+#resumePreview p {
+    margin-bottom: 10px;
+    color:  #2f2f2f;
+}
+
+#resumePreview b {
+    color:  #2f2f2f;
+}
